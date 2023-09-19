@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 
 // Initialize the server
-const wss = new WebSocket.Server({ port: 3000 });
+const wss = new WebSocket.Server({ host:"https://websocket-brown.vercel.app/", port: 3000 });
 
 // Array to store connected clients
 const clients = [];
